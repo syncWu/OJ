@@ -7,4 +7,10 @@ public class SingleNumber {
         }
         return result;
     }
+
+    public static void main(String[] args) {
+        SingleNumber singleNumber = new SingleNumber();
+        int[] nums = {2,2,3,3,4,4,5,5,1};
+        System.out.println(singleNumber.singleNumber(nums));
+    }
 }
